@@ -1,0 +1,99 @@
+/* Main Styling */
+html,
+body {
+    margin: 0;
+}
+
+.hero__container {
+    background: url("../img/pattern1.jpg") repeat;
+    height: 60vh;
+    padding: 20px 0;
+}
+
+.hero__container .logo__img {
+    width: 70px;
+}
+
+.hero__container .header__main-text {
+    color: #fff;
+    font-family: "Titillium Web", sans-serif;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding: 10px 0;
+}
+
+.hero__container .header__sub-text {
+    color: rgb(174, 175, 175);
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.2em;
+    margin: 10px 0 20px 0;
+}
+
+.btn-success.cta__hero-button {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.hero__container .disclaimer__text {
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.hero__container .cta__watch-video-text {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sub__hero-container {
+    background-color: rgb(58, 57, 57);
+    padding-bottom: 10%;
+}
+
+.technology__row-info {
+    padding: 3% 0;
+}
+
+.technology__row-info .technology__img {
+    margin-bottom: 10px;
+}
+
+.sub__hero-container h2 {
+    color: rgb(179, 179, 179);
+    font-family: "Titillium Web",
+  sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sub__hero-container .sub__hero-img {
+    width: 500px;
+    height: 300px;
+    margin-top: -15%;
+}
+
+.technology__row-info .technology__text {
+    font-family: Titillium Web;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.technology__row-info .fa-html5.fa-inverse {
+    color: #e84d31;
+}
+
+.technology__row-info .fa-inverse.fa-css3-alt {
+    color: #2d5e99;
+}
+
+.technology__row-info .fa-inverse.fa-js {
+    color: #edd64a;
+}

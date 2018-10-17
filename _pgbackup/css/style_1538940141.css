@@ -1,0 +1,13 @@
+html,
+body {
+    margin: 0;
+}
+
+.hero__header {
+    background-image: url('../img/pattern1.jpg');
+}
+
+.hero__header .logo__img {
+    height: 30px;
+    width: 30px;
+}

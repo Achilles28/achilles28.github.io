@@ -1,0 +1,25 @@
+/* Key Frame Animation CSS File */
+/**
+ * ----------------------------------------
+ * Hero Section Background Image Pan Animation
+ * ----------------------------------------
+ */
+@-webkit-keyframes bg-pan-bl {
+    0% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+@keyframes bg-pan-bl {
+    0% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}

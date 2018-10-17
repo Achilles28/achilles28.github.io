@@ -1,0 +1,12 @@
+html, body{
+  margin: 0;
+}
+
+.hero__header{
+  background: #ffffff url("/img/pattern1.jpg") repeat, cover;
+}
+
+.hero__header .logo__img{
+  height: 30px;
+  width: 30px;
+}
